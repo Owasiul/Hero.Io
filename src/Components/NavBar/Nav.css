@@ -1,0 +1,7 @@
+.active {
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-image: linear-gradient(to right, #632EE3, #9F62F2);
+  text-decoration: underline;
+}
