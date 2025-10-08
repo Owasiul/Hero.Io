@@ -1,14 +1,14 @@
 [
   {
-    "image": "https://play-lh.googleusercontent.com/1IoyvQzV-rNQ=s180-rw",
+    "image": "https://images.unsplash.com/photo-1611339555312-e607c8352fd7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0",
     "title": "Spotify: Music and Podcasts",
     "companyName": "Spotify AB",
     "id": 1,
     "description": "Stream millions of songs, podcasts, and playlists for free. Discover new music and artists every day.",
     "size": 46,
-    "reviews": 29800000,
+    "reviews": "29.8M",
     "ratingAvg": 4.4,
-    "downloads": 1000000000,
+    "downloads": "1B+",
     "ratings": [
       { "name": "1 star", "count": 1000000 },
       { "name": "2 star", "count": 700000 },
@@ -18,15 +18,15 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/kxgJzB2nM84=s180-rw",
+    "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0",
     "title": "Instagram",
     "companyName": "Instagram",
     "id": 2,
     "description": "Share photos and videos, connect with friends, and explore what's happening around the world.",
     "size": 65,
-    "reviews": 158000000,
+    "reviews": "158M",
     "ratingAvg": 4.1,
-    "downloads": 5000000000,
+    "downloads": "5B+",
     "ratings": [
       { "name": "1 star", "count": 11000000 },
       { "name": "2 star", "count": 9000000 },
@@ -36,15 +36,15 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/pY5nKQGytlM=s180-rw",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Hd3tvF7UP4eIcio2C5T1S39R2awdVjNTJQ&s",
     "title": "Canva: Design, Photo & Video",
     "companyName": "Canva",
     "id": 3,
     "description": "Create stunning designs, videos, and social media posts with easy drag-and-drop tools.",
     "size": 44,
-    "reviews": 16500000,
+    "reviews": "16.5M",
     "ratingAvg": 4.7,
-    "downloads": 100000000,
+    "downloads": "100M+",
     "ratings": [
       { "name": "1 star", "count": 300000 },
       { "name": "2 star", "count": 200000 },
@@ -54,15 +54,15 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/7U6fX7iTgWg=s180-rw",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQRvoVCco76uIoAbrclJ9JPEHlWjLxZ8Jz0g&s",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 4,
     "description": "Fast, secure, and synced messaging across all your devices. Privacy-focused communication app.",
     "size": 35,
-    "reviews": 14500000,
+    "reviews": "14.5M",
     "ratingAvg": 4.5,
-    "downloads": 1000000000,
+    "downloads": "1B+",
     "ratings": [
       { "name": "1 star", "count": 400000 },
       { "name": "2 star", "count": 300000 },
@@ -72,15 +72,15 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/MLH3n5e8O9M=s180-rw",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1dxIa41kZy0173tfClGsd_k13b509eId_kA&s",
     "title": "Snapseed",
     "companyName": "Google LLC",
     "id": 5,
     "description": "Professional photo editing tools developed by Google. Fine-tune details and create artistic effects.",
     "size": 28,
-    "reviews": 1800000,
+    "reviews": "1.8M",
     "ratingAvg": 4.5,
-    "downloads": 100000000,
+    "downloads": "100M+",
     "ratings": [
       { "name": "1 star", "count": 70000 },
       { "name": "2 star", "count": 50000 },
@@ -90,15 +90,15 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/2CspSxO6T8A=s180-rw",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFjq8KVdhEnrInlqpIl1WHNvHS61Q6sj8yEg&s",
     "title": "Duolingo: Learn Languages",
     "companyName": "Duolingo",
     "id": 6,
     "description": "Learn Spanish, French, German, English, and more for free with fun and effective lessons.",
     "size": 32,
-    "reviews": 17500000,
+    "reviews": "17.5M",
     "ratingAvg": 4.6,
-    "downloads": 500000000,
+    "downloads": "500M+",
     "ratings": [
       { "name": "1 star", "count": 400000 },
       { "name": "2 star", "count": 300000 },
@@ -108,15 +108,15 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/Mb8Ty1P9zLo=s180-rw",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Vv4YdVfJ9ELH2D7lerEKHiZ67kSk9SK6aw&s",
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
     "id": 7,
     "description": "Watch and create short-form videos. Discover viral trends, music, and global creators.",
     "size": 78,
-    "reviews": 180000000,
+    "reviews": "180M",
     "ratingAvg": 4.3,
-    "downloads": 5000000000,
+    "downloads": "5B+",
     "ratings": [
       { "name": "1 star", "count": 15000000 },
       { "name": "2 star", "count": 12000000 },
@@ -126,15 +126,15 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/dsOKdOwE2mY=s180-rw",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-aSbL2qfifQ40OsdS5tKbZmqc8qOVbUhSg&s",
     "title": "Notion: Notes, Docs, Tasks",
     "companyName": "Notion Labs, Inc.",
     "id": 8,
     "description": "All-in-one workspace for notes, projects, and collaboration. Stay organized and productive anywhere.",
     "size": 42,
-    "reviews": 2000000,
+    "reviews": "2M",
     "ratingAvg": 4.6,
-    "downloads": 10000000,
+    "downloads": "10M+",
     "ratings": [
       { "name": "1 star", "count": 50000 },
       { "name": "2 star", "count": 40000 },
