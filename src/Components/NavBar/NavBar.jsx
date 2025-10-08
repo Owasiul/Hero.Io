@@ -52,8 +52,8 @@ const NavBar = () => {
           </ul>
         </div>
         <a className="text-xl flex items-center space-x-2">
-          <img className="object-contain w-14" src={Logo} alt="Logo" />
-          <span className="font-bold text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#632EE3] to-[#9F62F2] ">
+          <img className="object-contain md:w-14 w-10" src={Logo} alt="Logo" />
+          <span className="font-bold text-lg  bg-clip-text text-transparent bg-gradient-to-r from-[#632EE3] to-[#9F62F2] ">
             HERO.IO
           </span>
         </a>
@@ -62,7 +62,12 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1 ">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a href="https://github.com/Owasiul" target="_blank" className="btn cursor-pointer bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"><Github className="w-10"/> Contribute</a>
+        <a href="https://github.com/Owasiul" target="_blank" className="px-2">
+          <button className="btn cursor-pointer bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
+            <Github className="w-5 " />{" "}
+            <span className="text-lg">Contribute</span>
+          </button>
+        </a>
       </div>
     </div>
   );

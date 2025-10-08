@@ -22,12 +22,12 @@ const Hero = () => {
           into digital experiences that truly make an impact.
         </p>
         <div className="mt-5 flex gap-5 items-center justify-center">
-          <button className="btn font-semibold text-lg text-[#001931] rounded lg:px-8 lg:py-4 px-4 py-2 space-x-1.5 ">
+          <a href="https://play.google.com/store/" target="_blank" className="btn font-semibold text-lg text-[#001931] rounded lg:px-8 lg:py-4 px-4 py-2 space-x-1.5 ">
             <img className="w-5" src={PlayStore} alt="" /> Play Store
-          </button>
-          <button className="btn font-semibold text-lg text-[#001931] rounded lg:px-8 lg:py-4 px-4 py-2 space-x-1.5 ">
+          </a>
+          <a href="https://www.apple.com/app-store/" target="_blank" className="btn font-semibold text-lg text-[#001931] rounded lg:px-8 lg:py-4 px-4 py-2 space-x-1.5 ">
             <img className="w-5" src={AppStore} alt="" /> App Store
-          </button>
+          </a>
         </div>
       </div>
       {/* hero bottom */}
