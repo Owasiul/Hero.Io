@@ -7,7 +7,7 @@ const TrendingApps = () => {
 
 return (
     <div className=" bg-[#F5F5F5]">
-        <div className="container mx-auto pt-7">
+        <div className="w-[90%] mx-auto pt-7">
             {/* top text */}
             <div className="top-txt text-center">
                 <h1 className="text-[#001931] font-bold md:text-5xl text-3xl">

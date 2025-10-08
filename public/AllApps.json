@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1611339555312-e607c8352fd7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Stream millions of songs, podcasts, and playlists for free. Discover new music and artists every day.",
+    "size": "46 MB",
+    "reviews": "29.8M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 23000000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 2,
+    "description": "Share photos and videos, connect with friends, and explore what's happening around the world.",
+    "size": "65 MB",
+    "reviews": "158M",
+    "ratingAvg": 4.1,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 11000000 },
+      { "name": "2 star", "count": 9000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 27000000 },
+      { "name": "5 star", "count": 99000000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Hd3tvF7UP4eIcio2C5T1S39R2awdVjNTJQ&s",
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "id": 3,
+    "description": "Create stunning designs, videos, and social media posts with easy drag-and-drop tools.",
+    "size": "44 MB",
+    "reviews": "16.5M",
+    "ratingAvg": 4.7,
+    "downloads": "100M+",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2300000 },
+      { "name": "5 star", "count": 13200000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQRvoVCco76uIoAbrclJ9JPEHlWjLxZ8Jz0g&s",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 4,
+    "description": "Fast, secure, and synced messaging across all your devices. Privacy-focused communication app.",
+    "size": "35 MB",
+    "reviews": "14.5M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 9800000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1dxIa41kZy0173tfClGsd_k13b509eId_kA&s",
+    "title": "Snapseed",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Professional photo editing tools developed by Google. Fine-tune details and create artistic effects.",
+    "size": "28 MB",
+    "reviews": "1.8M",
+    "ratingAvg": 4.5,
+    "downloads": "100M+",
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 1340000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFjq8KVdhEnrInlqpIl1WHNvHS61Q6sj8yEg&s",
+    "title": "Duolingo: Learn Languages",
+    "companyName": "Duolingo",
+    "id": 6,
+    "description": "Learn Spanish, French, German, English, and more for free with fun and effective lessons.",
+    "size": "32 MB",
+    "reviews": "17.5M",
+    "ratingAvg": 4.6,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 13500000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Vv4YdVfJ9ELH2D7lerEKHiZ67kSk9SK6aw&s",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 7,
+    "description": "Watch and create short-form videos. Discover viral trends, music, and global creators.",
+    "size": "78 MB",
+    "reviews": "180M",
+    "ratingAvg": 4.3,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 12000000 },
+      { "name": "3 star", "count": 18000000 },
+      { "name": "4 star", "count": 36000000 },
+      { "name": "5 star", "count": 99000000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-aSbL2qfifQ40OsdS5tKbZmqc8qOVbUhSg&s",
+    "title": "Notion: Notes, Docs, Tasks",
+    "companyName": "Notion Labs, Inc.",
+    "id": 8,
+    "description": "All-in-one workspace for notes, projects, and collaboration. Stay organized and productive anywhere.",
+    "size": "42 MB",
+    "reviews": "2M",
+    "ratingAvg": 4.6,
+    "downloads": "10M+",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1390000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8hV5BMf1bjQjJfVXUIEAkvljfW9ELi4kzIg&s",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 9,
+    "description": "Stream popular movies, TV shows, and exclusive Netflix Originals anytime, anywhere.",
+    "size": "60 MB",
+    "reviews": "120M",
+    "ratingAvg": 4.3,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 9000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 27000000 },
+      { "name": "5 star", "count": 69000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.produkto.io/photos/2025/04/22/linkedin-logo-2003.webp",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 10,
+    "description": "Connect with professionals, find jobs, and grow your career opportunities globally.",
+    "size": "48 MB",
+    "reviews": "5.5M",
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 1900000 },
+      { "name": "5 star", "count": 3100000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/013/948/543/non_2x/google-maps-logo-on-transparent-white-background-free-vector.jpg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "Navigate and explore the world with real-time traffic updates and street view imagery.",
+    "size": "55 MB",
+    "reviews": "15M",
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 9400000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/042/148/616/non_2x/pinterest-logo-pinterest-social-media-icon-free-png.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 12,
+    "description": "Discover new ideas, recipes, home inspiration, and lifestyle content that sparks creativity.",
+    "size": "41 MB",
+    "reviews": "9.8M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 6200000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/free-psd/social-media-logo-design_23-2151296993.jpg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 13,
+    "description": "Voice, video, and text chat platform for communities, gaming groups, and friends.",
+    "size": "52 MB",
+    "reviews": "12M",
+    "ratingAvg": 4.5,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 8800000 }
+    ]
+  },
+  {
+    "image": "https://brandlogos.net/wp-content/uploads/2020/03/YouTube-logo-png.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 14,
+    "description": "Watch, upload, and share videos. Discover trending content across the globe.",
+    "size": "70 MB",
+    "reviews": "145M",
+    "ratingAvg": 4.3,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 9000000 },
+      { "name": "3 star", "count": 16000000 },
+      { "name": "4 star", "count": 33000000 },
+      { "name": "5 star", "count": 75000000 }
+    ]
+  },
+  {
+    "image": "https://logos-world.net/wp-content/uploads/2023/12/Reddit-Logo.jpg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 15,
+    "description": "Join communities, share content, and discuss trending topics across the internet.",
+    "size": "39 MB",
+    "reviews": "5.2M",
+    "ratingAvg": 4.2,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 3400000 }
+    ]
+  },
+  {
+    "image": "https://logos-world.net/wp-content/uploads/2021/03/Zoom-Logo-2014.png",
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications",
+    "id": 16,
+    "description": "Video conferencing, chat, and webinars for work and education with HD quality.",
+    "size": "58 MB",
+    "reviews": "11.8M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 8200000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/teams-logo_1157034-580.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 17,
+    "description": "Chat, meet, call, and collaborate securely in one place with Teams for work or school.",
+    "size": "63 MB",
+    "reviews": "9.4M",
+    "ratingAvg": 4.2,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 6300000 }
+    ]
+  },
+  {
+    "image": "https://download.logo.wine/logo/Dropbox_(service)/Dropbox_(service)-Logo.wine.png",
+    "title": "Dropbox: Cloud Storage",
+    "companyName": "Dropbox, Inc.",
+    "id": 18,
+    "description": "Backup, sync, and share files securely across your devices with cloud storage.",
+    "size": "54 MB",
+    "reviews": "2.8M",
+    "ratingAvg": 4.3,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1700000 }
+    ]
+  },
+  {
+    "image": "https://logos-world.net/wp-content/uploads/2020/10/Slack-Logo.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies, LLC",
+    "id": 19,
+    "description": "Team communication and collaboration platform with channels, messaging, and integrations.",
+    "size": "50 MB",
+    "reviews": "3.2M",
+    "ratingAvg": 4.4,
+    "downloads": "100M+",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1950000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/green-square-social-media-logo_197792-2919.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 20,
+    "description": "Secure messaging, voice, and video calls for free. Connect with friends and family worldwide.",
+    "size": "38 MB",
+    "reviews": "200M",
+    "ratingAvg": 4.3,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 10000000 },
+      { "name": "3 star", "count": 20000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 110000000 }
+    ]
+  }
+]
