@@ -4,11 +4,13 @@ import Roots from "../Pages/Roots/Roots";
 import Home from "../Pages/Home/Home";
 import Apps from "../Pages/Apps/Apps";
 import AppDetails from "../Pages/AppDetails/AppDetails";
+import ErrorPage from "../Components/Error/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Roots,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

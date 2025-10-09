@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import TrendingApp from "./TrendingApp";
 const TrendingApps = () => {
   const apps = useLoaderData();
@@ -25,9 +25,11 @@ return (
             </div>
         </div>
         <div className="mt-7 py-5">
+            <Link to='/apps' >
             <button className="btn cursor-pointer px-4 py-3 flex mx-auto justify-center md:w-40 w-fit bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
                 Show All
             </button>
+            </Link>
         </div>
     </div>
 );
