@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import App from "./App";
 
 const Apps = () => {
   const allApps = useLoaderData();
+  const [findApp , setFindApp] =useState([])
 
 return (
     <div className="bg-[#F5F5F5]">
@@ -45,8 +46,10 @@ return (
             </div>
             <div className="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-5 lg:gap-10 py-5">
                 {allApps.map((app) => (
+                    // console.log(app),
                     <App key={app.id} app={app} />
                 ))}
+                
             </div>
         </div>
     </div>
