@@ -7,7 +7,7 @@ const TrendingApp = ({ app }) => {
   return (
     <>
       <Link to={`/appdetails/${id}`}>
-        <div className="card bg-base-100 md:w-80 md:h-80 w-full h-full shadow-sm">
+        <div className="card bg-base-100 hover:scale-105 md:w-80 md:h-80 w-full h-full shadow-sm">
           <figure className="px-10 pt-10">
             <img
               src={image}

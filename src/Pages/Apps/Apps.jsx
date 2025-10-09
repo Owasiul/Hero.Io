@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import App from "./App";
 import appError from "../../assets/App-Error.png";
 const Apps = () => {
@@ -9,7 +9,7 @@ const Apps = () => {
     setFindApp(event.target.value);
   };
   const filtedSearch = allApps.filter((app) =>
-    app.title.toLowerCase().includes(findApp.toLocaleLowerCase())
+    app.title.toLowerCase().includes(findApp.toLowerCase())
   );
 
   return (
@@ -61,8 +61,22 @@ const Apps = () => {
               ))}
             </div>
           ) : (
-            <div className="h-screen flex items-center justify-center">
+            <div className="h-screen flex flex-col items-center justify-center">
               <img src={appError} alt="" />{" "}
+              <div className="flex flex-col items-center justify-center text-center">
+                <h2 className="my-5 text-[#001931] text-5xl ">
+                  OPPS!! APP NOT FOUND
+                </h2>
+                <p className=" text-[#627382] text-sm">
+                  The App you are requesting is not found on our system. please
+                  try another apps
+                </p>
+                <Link to="/apps">
+                  <button className="btn mt-4 cursor-pointer px-4 py-3 flex mx-auto justify-center md:w-40 w-fit bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
+                    Go Back
+                  </button>
+                </Link>
+              </div>
             </div>
           )}
         </div>
