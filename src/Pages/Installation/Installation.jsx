@@ -13,7 +13,6 @@ const Installation = () => {
   const [installed, setInstalled] = useState(Alldata);
   const handleUnInstall = (id) => {
     removeInstalledApp(id);
-    
     const updatedApps = installed.filter((appId) => parseInt(appId) !== id);
     localStorage.setItem("installedApps", JSON.stringify(updatedApps));
     setInstalled(updatedApps)

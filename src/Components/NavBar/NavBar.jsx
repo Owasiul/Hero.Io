@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import "./Nav.css";
 import { Github } from "lucide-react";
 const NavBar = () => {
@@ -51,12 +51,12 @@ const NavBar = () => {
             {links}
           </ul>
         </div>
-        <a className="text-xl flex items-center space-x-2">
+        <Link to="/" className="text-xl flex items-center space-x-2">
           <img className="object-contain md:w-14 w-10" src={Logo} alt="Logo" />
           <span className="font-bold text-lg  bg-clip-text text-transparent bg-gradient-to-r from-[#632EE3] to-[#9F62F2] ">
             HERO.IO
           </span>
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 ">{links}</ul>

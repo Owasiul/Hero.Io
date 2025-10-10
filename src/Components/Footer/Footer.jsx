@@ -33,7 +33,7 @@ const Footer = () => {
           <p className="text-xl text-neutral-700">Your Trasted Tech Partner</p>
           </div>
         </aside>
-        <nav className="md:place-self-center md:justify-self-end">
+        <nav className="md:place-self-center md:justify-self-center">
           <div className="grid grid-flow-col gap-4">
             <a>
               <svg
