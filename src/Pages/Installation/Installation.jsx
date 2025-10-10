@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
-import { getInstalledApp } from "../../Untillities/AddToLDB";
+import {
+  getInstalledApp,
+  removeInstalledApp,
+} from "../../Untillities/AddToLDB";
 import InstallledAppList from "./InstallledAppList";
 
 const Installation = () => {
@@ -9,8 +12,14 @@ const Installation = () => {
   const [sort, setSort] = useState("");
   const [installed, setInstalled] = useState(Alldata);
   const handleUnInstall = (id) => {
-    const updatedApps = installed.filter((remove) => remove.id !== id);
-    setInstalled(updatedApps);
+    removeInstalledApp(id);
+    
+    const updatedApps = installed.filter((appId) => parseInt(appId) !== id);
+    localStorage.setItem("installedApps", JSON.stringify(updatedApps));
+    setInstalled(updatedApps)
+
+    const updatedAppList = appList.filter((app) => app.id !== id);
+    setApplist(updatedAppList);
   };
 
   const handleSort = (type) => {

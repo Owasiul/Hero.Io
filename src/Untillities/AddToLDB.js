@@ -9,6 +9,11 @@ const getInstalledApp = () => {
     return [];
   }
 };
+const removeInstalledApp =(id) =>{
+  const installedApp = getInstalledApp()
+  const updatedApps = installedApp.filter(app => app.id !== id)
+  localStorage.setItem("installedApps", JSON.stringify(updatedApps));
+}
 const addToStoredLDB = (id) => {
   const appData = getInstalledApp();
   if (appData.includes(id)) {
@@ -30,4 +35,4 @@ const addToStoredLDB = (id) => {
   }
 };
 
-export { addToStoredLDB, getInstalledApp };
+export { addToStoredLDB, getInstalledApp, removeInstalledApp };
