@@ -4,14 +4,16 @@ import { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
+import { addToStoredLDB } from "../../Untillities/AddToLDB";
 
 const AppDetails = () => {
   const { id } = useParams();
   const convertId = parseInt(id);
   const appData = useLoaderData();
   const [installed, setInstalled] = useState(false);
-  const handleInstall = () => {
+  const handleInstall = (id) => {
     setInstalled(true);
+    addToStoredLDB(id)
     toast.success("App Installed Successfully!", {
       position: "bottom-left",
       autoClose: 5000,
@@ -88,8 +90,8 @@ const AppDetails = () => {
           </div>
           <div className="install w-full mx-10 my-3">
             <button
-              onClick={handleInstall}
-              className="btn flex items-center bg-[#00D390] rounded text-white"
+              onClick={() => handleInstall(id)}
+              className={`btn flex items-center ${installed? "bg-gray-500" : "bg-[#00D390]"} rounded text-white`}
             >
               {installed ? <p>Installed</p> : <p>Install now ({size})</p>}
             </button>
@@ -105,7 +107,7 @@ const AppDetails = () => {
         <p>{description}</p>
       </div>
       <ToastContainer
-        position="bottom-left"
+        position="bottom-left, Top-right"
         autoClose={5000}
         hideProgressBar={false}
         newestOnTop={false}
